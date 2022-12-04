@@ -1,0 +1,32 @@
+\documentclass[10pt,journal,compsoc]{article}
+\usepackage[utf8]{inputenc}
+
+\title{An Example for Academic writing, Norms, and Ethics}
+\author{Mingye Li}
+\date{December 2022}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\section{Introduction}
+This is my first Latex project for the course \emph{Academic writing, Norms, and Ethics}. If you have any questions, feel free to contact me through \textbf{E-mails}.
+
+\section{proof}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.5]{figure.jpeg}
+    \caption{birds}
+    \label{fig:birds}
+\end{figure}
+This is the figure of \textbf{bird}. 
+
+\section{experiment}
+
+\section{conclusion}
+``I always thought something was fundamentally wrong with the universe''
+\citep{9863638}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
